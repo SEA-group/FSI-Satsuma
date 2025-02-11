@@ -1,0 +1,96 @@
+<RedLight.mfm>
+	<fx>	shaders/std_effects/PBS_ship_emissive.fx	</fx>
+	<property>	emissivePower
+		<Float>	5.00000	</Float>
+	</property>
+	<property>	animEmissionPower
+		<Float>	100.00000	</Float>
+	</property>
+	<property>	emissionAnimationMode
+		<Int>	3	</Int>
+	</property>
+    <property>	emissionColorMode
+	    <Int>	2	</Int>
+    </property>
+	<property>	animScale
+		<Float>	1	1	1	1	</Float>
+	</property>
+	<property>	maskColor1
+		<Vector4>	1	0	0	1	</Vector4>
+	</property>
+	<property>	maskColor2
+		<Vector4>	1	0	0	1	</Vector4>
+	</property>
+	<property>	maskSpeed
+		<Vector4>	0	0.5	0	0	</Vector4>
+	</property>
+	<property>	doubleSided
+		<Bool>	true	</Bool>
+	</property>
+	<property>	alphaTestEnable
+		<Bool>	true	</Bool>
+	</property>
+	<property>	alphaReference
+		<Int>	127	</Int>
+	</property>
+	<property>	SeaShadingQuality
+		<Bool>	false	</Bool>
+	</property>
+	<collisionFlags>	0	</collisionFlags>
+	<property>	ambientOcclusionMap
+		<Texture>	PnFMods/SEA_FSI_Satsuma/JSB111_Satsuma/ship/P13_RedLight_ao.dds	</Texture>
+	</property>
+	<property>	detailMap
+		<Texture>	content/gameplay/common/textures/ship_atlas_detail.dds	</Texture>
+	</property>
+	<property>	animMap
+		<Texture>	PnFMods/SEA_FSI_Satsuma/JSB111_Satsuma/ship/P13_RedLight_anim.dds	</Texture>
+	</property>
+	<property>	diffuseMap
+		<Texture>	PnFMods/SEA_FSI_Satsuma/JSB111_Satsuma/ship/P13_RedLight_a.dds	</Texture>
+	</property>
+	<property>	metallicGlossMap
+		<Texture>	PnFMods/SEA_FSI_Satsuma/JSB111_Satsuma/ship/P13_RedLight_mg.dds	</Texture>
+	</property>
+	<property>	normalMap
+		<Texture>	PnFMods/SEA_FSI_Satsuma/JSB111_Satsuma/ship/P13_RedLight_n.dds	</Texture>
+	</property>
+	<property>	g_detailAlbedoInfluence
+		<Float>	0.0000	</Float>
+	</property>
+	<property>	g_detailFadeDistance
+		<Float>	5.0000	</Float>
+	</property>
+	<property>	g_detailGlossInfluence
+		<Float>	0.0000	</Float>
+	</property>
+	<property>	g_detailNormalInfluence
+		<Float>	0.0000	</Float>
+	</property>
+	<property>	g_detailScaleU
+		<Float>	32.0000	</Float>
+	</property>
+	<property>	g_detailScaleV
+		<Float>	32.0000	</Float>
+	</property>
+</RedLight.mfm>
+emissionAnimationMode
+('None', 0);
+('Pulse', 1);
+('Timeline', 2);
+('Scrolling Mask',	3)
+emissionColorMode
+('Use Albedo', 0); 
+('Override Base and Animation Colors',	1);
+('Override Animation Color', 2
+White area as stable and emission area Blue chanel as black anim mask
+white is brithiest ; Blue is darkness and decrese the basic emission
+the vetor4 represent that MaskU MaskV V3 V4 
+as for 0 1 0 0 the white area doent move, only blue mask moveing
+as for 0 1 1 0 the white and blue area is moving ;yellow mask is moving but yellow area is not illuminate;
+blue area will illuminate by yellow area
+vetor3 is yellow mask moving speed 
+as for 0 1 1 0 the black area is empty , the blue area will be illuminated by Yellow mask
+as for 0 0.25 0 1 the red mask showing in white area . R+B+G is area,red is musk,black is emission mask
+
+vetor4 is red mask moving speed

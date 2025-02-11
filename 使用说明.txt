@@ -1,0 +1,14 @@
+﻿# FSI 萨摩
+
+本外观mod适用于日系超战 萨摩
+
+## 使用方法
+* **WG游戏中心用户**请把`PnFMods`和`PnFModsLoader.py`放到`[游戏安装目录]/bin/[数字最大的那个]/res_mods/`里面
+* **Steam客户端用户**请把`PnFMods`和`PnFModsLoader.py`放到`steamapps/common/World of Warships/bin/[数字最大的那个]/res_mods/`里面
+
+## 删除方法
+* **在上文提及的`PnFMods`文件夹内将`SEA_FSI_Satsuma`文件夹删除
+
+
+Presented by FABAJI, SEA group
+
