@@ -1,6 +1,9 @@
 <JGS026_100mm65_Type98.model>
 	<visual>	PnFMods/SEA_FSI_Satsuma/JSB111_Satsuma/gun/JGS026_100mm65_Type98.visual	</visual>
-	<animations />
-	<dyes />
+	<animations/>
+	<dyes/>
+	<skeletonExtenders>
+		<skeletonExtender>	PnFMods/SEA_FSI_Satsuma/JSB111_Satsuma/gun/JGS026_100mm65_Type98.skel_ext	</skeletonExtender>
+	</skeletonExtenders>
 	<metaData>	Wargaming.net	</metaData>
 </JGS026_100mm65_Type98.model>

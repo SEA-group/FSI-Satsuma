@@ -1,6 +1,7 @@
 <JAB707_Kawanishi_H6K5.model>
 	<visual>	PnFMods/SEA_FSI_Satsuma/JSB111_Satsuma/aircraft/JAB707_Kawanishi_H6K5.visual	</visual>
-	<animations />
-	<dyes />
+	<animations/>
+	<dyes/>
+	<skeletonExtenders/>
 	<metaData>	Wargaming.net	</metaData>
 </JAB707_Kawanishi_H6K5.model>

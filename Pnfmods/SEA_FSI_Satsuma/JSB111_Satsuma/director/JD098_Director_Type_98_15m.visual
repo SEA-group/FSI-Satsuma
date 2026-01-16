@@ -157,7 +157,7 @@
 	</renderSets>
 	<lods>
 		<lod>
-			<extent>	200.0000	</extent>
+			<extent>	300.0000	</extent>
 			<castsShadow>	true	</castsShadow>
 			<renderSets>
 				<renderSet>	Rotor_netShape	</renderSet>

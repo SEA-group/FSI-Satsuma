@@ -1,6 +1,7 @@
 <JSB052_Satsuma_1945.model>
 	<visual>	PnFMods/SEA_FSI_Satsuma/JSB111_Satsuma/ship/JSB052_Satsuma_1945.visual	</visual>
-	<animations />
-	<dyes />
+	<animations/>
+	<dyes/>
+	<skeletonExtenders/>
 	<metaData>	Wargaming.net	</metaData>
 </JSB052_Satsuma_1945.model>

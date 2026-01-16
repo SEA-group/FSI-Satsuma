@@ -164,7 +164,7 @@
 	</renderSets>
 	<lods>
 		<lod>
-			<extent>	120.0000	</extent>
+			<extent>	300.0000	</extent>
 			<castsShadow>	true	</castsShadow>
 			<renderSets>
 				<renderSet>	BaseShape	</renderSet>
