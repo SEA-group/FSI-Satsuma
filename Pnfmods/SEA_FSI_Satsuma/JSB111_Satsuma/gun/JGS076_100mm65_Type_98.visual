@@ -241,7 +241,7 @@
 	</renderSets>
 	<lods>
 		<lod>
-			<extent>	4.0000	</extent>
+			<extent>	200.0000	</extent>
 			<castsShadow>	true	</castsShadow>
 			<renderSets>
 				<renderSet>	TurretShape	</renderSet>
